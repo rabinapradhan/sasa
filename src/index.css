@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+@theme {
+  --font-nunito: "Nunito Sans", sans-serif;
+  --font-audrey: "AUDREY", sans-serif;
+  --font-muli: "Muli", sans-serif;
+}
+
+@font-face {
+  font-family: "AUDREY";
+  src: url("/fonts/Audrey-Normal.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AUDREY";
+  src: url("/fonts/Audrey-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("/fonts/Muli.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("/fonts/Muli-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
